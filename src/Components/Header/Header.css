@@ -1,0 +1,14 @@
+.head {
+    cursor: pointer;
+}
+
+
+.head .logo img {
+    width: 500px;
+}
+
+@media screen and (max-width:768px) {
+    .head .ad {
+        display: none;
+    }
+}

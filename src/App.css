@@ -9,3 +9,20 @@
 body {
     font-family: "Poppins", sans-serif;
 }
+
+/* global design  */
+
+.container {
+    max-width: 90%;
+    margin: auto;
+}
+
+.flexSB {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+}

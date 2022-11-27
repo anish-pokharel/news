@@ -7,6 +7,27 @@
     width: 500px;
 }
 
+header {
+    background-color: #000;
+    color: #fff;
+}
+
+header li {
+    margin-right: 30px;
+    transition: 0.5s;
+}
+
+header li :hover {
+    color: crimson;
+    cursor: pointer;
+}
+
+header a {
+    color: #fff;
+}
+
+
+
 @media screen and (max-width:768px) {
     .head .ad {
         display: none;

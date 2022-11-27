@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Head from "./Head";
 import "./Header.css";
-import { Link } from "react-router-dom";
+import { a } from "react-router-dom";
 
 const Header = () => {
   const [navbar, setNavbar] = useState(false);
@@ -17,34 +17,34 @@ const Header = () => {
               onClick={() => setNavbar(false)}
             >
               <li>
-                <Link to="/">Home</Link>
+                <a to="/">Home</a>
               </li>
               <li>
-                <Link to="/culture">Culture</Link>
+                <a to="/culture">Culture</a>
               </li>
               <li>
-                <Link to="/politics">Politics</Link>
+                <a to="/politics">Politics</a>
               </li>
               <li>
-                <Link to="/memes">Memes</Link>
+                <a to="/memes">Memes</a>
               </li>
               <li>
-                <Link to="/sports">Sports</Link>
+                <a to="/sports">Sports</a>
               </li>
               <li>
-                <Link to="/boxed">Boxed</Link>
+                <a to="/boxed">Boxed</a>
               </li>
               <li>
-                <Link to="/reviews">Reviews</Link>
+                <a to="/reviews">Reviews</a>
               </li>
             </ul>
-            <button className="barIcon" onClick={() => setNavbar(!navbar)}>
+            {/* <button className="barIcon" onClick={() => setNavbar(!navbar)}>
               {navbar ? (
                 <i className="fa fa-times"></i>
               ) : (
                 <i className="fa fa-bars"></i>
               )}
-            </button>
+            </button> */}
           </nav>
         </div>
       </header>

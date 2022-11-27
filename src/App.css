@@ -26,3 +26,15 @@ body {
 .flex {
     display: flex;
 }
+
+.paddingSmall {
+    padding: 20px 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}

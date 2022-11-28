@@ -21,15 +21,16 @@ footer h3 {
     font-weight: 500;
 }
 
-footer .item img {
-    width: 80px;
-    height: 80px;
-    object-fit: cover;
-}
 
 footer .item {
     display: flex;
     margin-bottom: 30px;
+}
+
+footer .item img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
 }
 
 footer .item p {
@@ -62,4 +63,14 @@ footer ul li span::before {
     background-color: #000;
     color: grey;
     border-top: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.legal i {
+    color: red;
+}
+
+@media screen and (max-width: 768px) {
+    footer .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
